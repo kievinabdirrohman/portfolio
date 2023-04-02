@@ -90,8 +90,16 @@ export default function Home() {
               </Link>
               <Link href="https://github.com/kievinabdirrohman">
                 <Image
-                  src="github-octocat-svgrepo-com.svg"
+                  src="github-code-source-svgrepo-com.svg"
                   alt="Github"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+              <Link href="https://resume.io/r/Ix499c1FY">
+                <Image
+                  src="curriculum-vitae-resume-svgrepo-com.svg"
+                  alt="Resume.io"
                   width={30}
                   height={30}
                 />
@@ -164,11 +172,13 @@ export default function Home() {
               <li className="text-2xl font-semibold">
                 Freelance Software Developer - Self Employed (2019 - Present)
                 <p className="text-lg font-medium mt-2">
-                  &quot;Since graduating from college, I have decided to
-                  actualize my knowledge and skills by directly immersing myself
-                  in the business world. I have contributed to the development
-                  of several systems, both in government institutions and
-                  private companies.&quot;
+                  &quot;Creating user-friendly, responsive, and scalable
+                  solutions using modern technologies such as React, Typescript,
+                  Flutter, etc. I have worked with clients from various
+                  industries and government institutions, such as
+                  administration, manufacturing, marketing, etc. Solving complex
+                  problems and delivering high-quality products that meet the
+                  needs and expectations of clients.&quot;
                 </p>
               </li>
             </ul>

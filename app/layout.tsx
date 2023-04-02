@@ -1,4 +1,5 @@
 import { Exo_2 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={ubuntu.className}>
       <link rel="icon" type="image/x-icon" href="/user-male-svgrepo-com.svg" />
+      <Analytics />
       <body>{children}</body>
     </html>
   );
